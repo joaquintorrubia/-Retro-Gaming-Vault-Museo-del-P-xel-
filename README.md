@@ -3,6 +3,7 @@
 
 **Parte 1**
 Lo primero que hacemos es declarar en baseX para que entienda file:write
+Si pones file:write, no lo entendera. Hay que poner esto:
 
 declare namespace file = "http://expath.org/ns/file";
 despues cargamos el xml en baseX.
