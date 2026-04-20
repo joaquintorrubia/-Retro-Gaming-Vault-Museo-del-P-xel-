@@ -14,3 +14,7 @@ He creado el html para la consulta 1 con sus etiquetas correspondientes. Main, h
 Lo que queremos en la consulta 1: 
  son los ítems de tipo "Hardware" lanzados antes de 1985.
 
+ for $item in $xml//Item[@categoria = 'Hardware' and xs:integer(AnioLanzamiento) < 1985]
+ order by xs:integer($item/AnioLanzamiento)
+ return 
+
