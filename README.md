@@ -19,3 +19,12 @@ Lo que queremos en la consulta 1:
  order by xs:integer($item/AnioLanzamiento)
  return 
 
+La variable creada es ruta_salida.
+
+En la serializacion he seguido lo que ponia en classroom.
+file:write(
+  "C:/ruta/proyecto/index.html",
+  $html,
+  map {
+    "method": "html",
+    ...
