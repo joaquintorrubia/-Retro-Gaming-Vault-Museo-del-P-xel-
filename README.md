@@ -2,10 +2,10 @@
 
 
 **Parte 1**
+Lo primero que hacemos es declarar en baseX para que entienda file:write
 
 declare namespace file = "http://expath.org/ns/file";
-Lo primero que hacemos es declarar en baseX para que entienda file:write
-despues cargamos la Base de datos.
+despues cargamos el xml en baseX.
 
 He creado el html para la consulta 1 con sus etiquetas correspondientes. Main, header, head, body
 
